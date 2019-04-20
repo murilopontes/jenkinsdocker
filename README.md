@@ -2,7 +2,7 @@
 
 ```sh
 docker rm -f jenkinsci
-docker run -d -p 8080:8080 -p 50000:50000  --name jenkinsci --restart always -v /var/run/docker.sock:/var/run/docker.sock  -v jenkins_home:/var/jenkins_home  jenkinsdocker
+docker run -d -p 8080:8080 -p 50000:50000  --name jenkinsci --restart always -v /var/run/docker.sock:/var/run/docker.sock  -v jenkins_home:/var/jenkins_home  murilopontes/jenkinsdocker
 ```
 
 # checking if docker in docker is working
