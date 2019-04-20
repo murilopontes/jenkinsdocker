@@ -1,5 +1,24 @@
 # jenkinsdocker
 
+## Install docker in host machine
+
+```sh
+curl -fsSL https://get.docker.com -o get-docker.sh 
+sudo sh get-docker.sh
+```
+
+## Add user to docker group
+```sh
+sudo usermod -aG docker $(whoami)
+```
+Is required logout and login again to take effect.
+
+## Clone this repo
+```sh
+git clone https://github.com/murilopontes/jenkinsdocker.git
+cd jenkinsdocker
+```
+
 ## build and tag
 ```sh
 docker build -t murilopontes/jenkinsdocker .
