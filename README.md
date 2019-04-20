@@ -1,4 +1,9 @@
-# running jenkinsdocker
+# jenkinsdocker
+After run go to:
+
+[http://localhost:8080](http://localhost:8080)
+
+# run jenkinsdocker
 
 ```sh
 docker rm -f jenkinsci
