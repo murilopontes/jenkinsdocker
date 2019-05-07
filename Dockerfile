@@ -28,6 +28,8 @@ libncurses5 libncurses5-dev libncursesw5-dev libelf-dev zlib1g-dev
 # Cmake and ninja
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y cmake ninja-build
 
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y pxz
+
 
 ###### LOCALES
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y locales
