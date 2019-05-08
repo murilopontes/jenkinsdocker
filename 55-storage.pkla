@@ -1,0 +1,6 @@
+# /etc/polkit-1/localauthority/50-local.d
+
+[Storage Permissions]
+Identity=unix-group:plugdev
+Action=org.freedesktop.udisks2.loop-setup
+ResultAny=yes
